@@ -13,7 +13,7 @@ export default function App() {
 
         <div className="content">
           <div className="logo-wrapper">
-            <img src="/public/image.png" alt="Pokédex" className="logo" />
+            <img src="/image.png" alt="Pokédex" className="logo" />
           </div>
 
           <img src="/pokenative.png"/>
@@ -30,7 +30,7 @@ export default function App() {
               rel="noopener noreferrer"
               className="btn btn-white"
             >
-              <img src="/public/icons/github.svg" alt="" className="btn-icon" />
+              <img src="/icons/github.svg" alt="" className="btn-icon" />
               Voir le code
             </a>
 
@@ -40,7 +40,7 @@ export default function App() {
               className="btn btn-green"
             >
               <img
-                src="/public/icons/download.svg"
+                src="/icons/download.svg"
                 alt=""
                 className="btn-icon"
               />
@@ -65,7 +65,7 @@ export default function App() {
           <div className="features-grid">
             <div className="card card-blue">
               <div className="icon icon-blue">
-                <img src="/public/icons/search.svg" alt="Search" />
+                <img src="/icons/search.svg" alt="Search" />
               </div>
               <h3>Recherche rapide</h3>
               <p>
@@ -76,7 +76,7 @@ export default function App() {
 
             <div className="card card-purple">
               <div className="icon icon-purple">
-                <img src="/public/icons/lightning.svg" alt="Lightning" />
+                <img src="/icons/lightning.svg" alt="Lightning" />
               </div>
               <h3>Statistiques détaillées</h3>
               <p>
@@ -87,7 +87,7 @@ export default function App() {
 
             <div className="card card-pink">
               <div className="icon icon-pink">
-                <img src="/public/icons/shield.svg" alt="Shield" />
+                <img src="/icons/shield.svg" alt="Shield" />
               </div>
               <h3>Données complètes</h3>
               <p>
@@ -105,7 +105,7 @@ export default function App() {
           <div className="screens-grid">
             <div className="screen-img">
               <img
-                src="/public/index.png"
+                src="/index.png"
                 alt="App screenshot 1"
                 loading="lazy"
               />
@@ -113,12 +113,12 @@ export default function App() {
 
             <div className="screen">
               <video autoPlay loop muted playsInline preload="metadata">
-                <source src="/public/demo-app.mp4" type="video/mp4" />
+                <source src="/demo-app.mp4" type="video/mp4" />
               </video>
             </div>
 
             <div className="screen-img">
-              <img src="/public/id.png" alt="App screenshot 2" loading="lazy" />
+              <img src="/id.png" alt="App screenshot 2" loading="lazy" />
             </div>
           </div>
         </div>
@@ -140,7 +140,7 @@ export default function App() {
             className="btn btn-white btn-large"
           >
             <img
-              src="/public/icons/download.svg"
+              src="/icons/download.svg"
               alt=""
               style={{ width: "28px", height: "28px" }}
             />
@@ -160,7 +160,7 @@ export default function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/public/icons/github.svg" alt="GitHub" />
+              <img src="/icons/github.svg" alt="GitHub" />
             </a>
           </div>
         </div>

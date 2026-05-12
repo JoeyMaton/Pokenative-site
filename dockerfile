@@ -1,15 +1,19 @@
-
 FROM node:20-alpine AS build
 
 WORKDIR /app
 
+# copier uniquement package.json
 COPY package*.json ./
 
+# installer deps proprement
 RUN npm install
 
+# copier le reste
 COPY . .
 
-RUN npm run build
+# forcer les permissions + exécution via npx (IMPORTANT)
+RUN npx vite build
+
 
 FROM nginx:alpine
 
